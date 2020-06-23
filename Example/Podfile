@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'ThirdwheelDemo_Example' do
+  pod 'ThirdwheelDemo', :path => '../'
+
+  target 'ThirdwheelDemo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
