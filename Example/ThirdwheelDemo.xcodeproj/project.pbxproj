@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		12C5B357E1689B272AAB171E /* Pods_ThirdwheelDemo_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0056391E5A6BC6E9383938CE /* Pods_ThirdwheelDemo_Tests.framework */; };
 		2A5714C778C047496BD2D8DB /* Pods_ThirdwheelDemo_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E135DA498DECDD1F15F101 /* Pods_ThirdwheelDemo_Example.framework */; };
+		3C3CC06724A9E5F40007E7C0 /* SearchRequest.proto in Sources */ = {isa = PBXBuildFile; fileRef = 3C3CC06224A9E5F40007E7C0 /* SearchRequest.proto */; };
+		3C3CC06824A9E5F40007E7C0 /* ProtocolBuffers_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3CC06324A9E5F40007E7C0 /* ProtocolBuffers_ViewController.m */; };
+		3C3CC06C24A9EF4A0007E7C0 /* SearchRequest.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3CC06B24A9EF4A0007E7C0 /* SearchRequest.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3C63743524A1F43C00C6A9EC /* CJMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C63743424A1F43C00C6A9EC /* CJMBaseViewController.m */; };
+		3C63743B24A1F6A300C6A9EC /* YYKeyboardManager_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C63743A24A1F6A300C6A9EC /* YYKeyboardManager_ViewController.m */; };
+		3C63744324A20F6B00C6A9EC /* YYDispatchQueuePool_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C63744224A20F6A00C6A9EC /* YYDispatchQueuePool_ViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -41,6 +47,17 @@
 		15E135DA498DECDD1F15F101 /* Pods_ThirdwheelDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThirdwheelDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		341778E69DA2CB5FB8655B3D /* Pods-ThirdwheelDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThirdwheelDemo_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ThirdwheelDemo_Tests/Pods-ThirdwheelDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		36624C65838C726B0349C49E /* Pods-ThirdwheelDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThirdwheelDemo_Tests.release.xcconfig"; path = "Target Support Files/Pods-ThirdwheelDemo_Tests/Pods-ThirdwheelDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3C3CC06224A9E5F40007E7C0 /* SearchRequest.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.protobuf; path = SearchRequest.proto; sourceTree = "<group>"; };
+		3C3CC06324A9E5F40007E7C0 /* ProtocolBuffers_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProtocolBuffers_ViewController.m; sourceTree = "<group>"; };
+		3C3CC06424A9E5F40007E7C0 /* ProtocolBuffers_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolBuffers_ViewController.h; sourceTree = "<group>"; };
+		3C3CC06A24A9EF4A0007E7C0 /* SearchRequest.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchRequest.pbobjc.h; sourceTree = "<group>"; };
+		3C3CC06B24A9EF4A0007E7C0 /* SearchRequest.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchRequest.pbobjc.m; sourceTree = "<group>"; };
+		3C63743324A1F43C00C6A9EC /* CJMBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJMBaseViewController.h; sourceTree = "<group>"; };
+		3C63743424A1F43C00C6A9EC /* CJMBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJMBaseViewController.m; sourceTree = "<group>"; };
+		3C63743924A1F6A300C6A9EC /* YYKeyboardManager_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYKeyboardManager_ViewController.h; sourceTree = "<group>"; };
+		3C63743A24A1F6A300C6A9EC /* YYKeyboardManager_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYKeyboardManager_ViewController.m; sourceTree = "<group>"; };
+		3C63744124A20F6A00C6A9EC /* YYDispatchQueuePool_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYDispatchQueuePool_ViewController.h; sourceTree = "<group>"; };
+		3C63744224A20F6A00C6A9EC /* YYDispatchQueuePool_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYDispatchQueuePool_ViewController.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ThirdwheelDemo_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThirdwheelDemo_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,11 +78,11 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		69E450FBBE247AD179053292 /* Pods-ThirdwheelDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThirdwheelDemo_Example.debug.xcconfig"; path = "Target Support Files/Pods-ThirdwheelDemo_Example/Pods-ThirdwheelDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		6FEE11B0A37017FB5574F295 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6FEE11B0A37017FB5574F295 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		97B36CDF64B2C3F4BE3D779F /* ThirdwheelDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ThirdwheelDemo.podspec; path = ../ThirdwheelDemo.podspec; sourceTree = "<group>"; };
-		D049B404A2FE92B7BF3D7836 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		97B36CDF64B2C3F4BE3D779F /* ThirdwheelDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ThirdwheelDemo.podspec; path = ../ThirdwheelDemo.podspec; sourceTree = "<group>"; };
+		D049B404A2FE92B7BF3D7836 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D61E4A5B0FBDC1891E6C9D76 /* Pods-ThirdwheelDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThirdwheelDemo_Example.release.xcconfig"; path = "Target Support Files/Pods-ThirdwheelDemo_Example/Pods-ThirdwheelDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,6 +112,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C63743824A1F6A300C6A9EC /* YYKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				3C63743924A1F6A300C6A9EC /* YYKeyboardManager_ViewController.h */,
+				3C63743A24A1F6A300C6A9EC /* YYKeyboardManager_ViewController.m */,
+			);
+			path = YYKeyboardManager;
+			sourceTree = "<group>";
+		};
+		3C63744024A20F4900C6A9EC /* YYDispatchQueuePool */ = {
+			isa = PBXGroup;
+			children = (
+				3C63744124A20F6A00C6A9EC /* YYDispatchQueuePool_ViewController.h */,
+				3C63744224A20F6A00C6A9EC /* YYDispatchQueuePool_ViewController.m */,
+			);
+			path = YYDispatchQueuePool;
+			sourceTree = "<group>";
+		};
+		3CAF5B6524A89726001DAD9E /* ProtocolBuffers */ = {
+			isa = PBXGroup;
+			children = (
+				3C3CC06424A9E5F40007E7C0 /* ProtocolBuffers_ViewController.h */,
+				3C3CC06324A9E5F40007E7C0 /* ProtocolBuffers_ViewController.m */,
+				3C3CC06A24A9EF4A0007E7C0 /* SearchRequest.pbobjc.h */,
+				3C3CC06B24A9EF4A0007E7C0 /* SearchRequest.pbobjc.m */,
+				3C3CC06224A9E5F40007E7C0 /* SearchRequest.proto */,
+			);
+			path = ProtocolBuffers;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +184,11 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* CJMViewController.h */,
 				6003F5A6195388D20070C39A /* CJMViewController.m */,
+				3C63743324A1F43C00C6A9EC /* CJMBaseViewController.h */,
+				3C63743424A1F43C00C6A9EC /* CJMBaseViewController.m */,
+				3CAF5B6524A89726001DAD9E /* ProtocolBuffers */,
+				3C63744024A20F4900C6A9EC /* YYDispatchQueuePool */,
+				3C63743824A1F6A300C6A9EC /* YYKeyboardManager */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -193,7 +245,6 @@
 				341778E69DA2CB5FB8655B3D /* Pods-ThirdwheelDemo_Tests.debug.xcconfig */,
 				36624C65838C726B0349C49E /* Pods-ThirdwheelDemo_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +309,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -324,11 +376,19 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ThirdwheelDemo_Example/Pods-ThirdwheelDemo_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
 				"${BUILT_PRODUCTS_DIR}/ThirdwheelDemo/ThirdwheelDemo.framework",
+				"${BUILT_PRODUCTS_DIR}/YYDispatchQueuePool/YYDispatchQueuePool.framework",
+				"${BUILT_PRODUCTS_DIR}/YYKeyboardManager/YYKeyboardManager.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ThirdwheelDemo.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYDispatchQueuePool.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKeyboardManager.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -364,8 +424,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C3CC06824A9E5F40007E7C0 /* ProtocolBuffers_ViewController.m in Sources */,
+				3C63743B24A1F6A300C6A9EC /* YYKeyboardManager_ViewController.m in Sources */,
 				6003F59E195388D20070C39A /* CJMAppDelegate.m in Sources */,
+				3C63743524A1F43C00C6A9EC /* CJMBaseViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* CJMViewController.m in Sources */,
+				3C3CC06724A9E5F40007E7C0 /* SearchRequest.proto in Sources */,
+				3C3CC06C24A9EF4A0007E7C0 /* SearchRequest.pbobjc.m in Sources */,
+				3C63744324A20F6B00C6A9EC /* YYDispatchQueuePool_ViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

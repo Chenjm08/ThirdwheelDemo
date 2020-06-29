@@ -1,0 +1,35 @@
+PODS:
+  - Masonry (1.1.0)
+  - Protobuf (3.12.0)
+  - ThirdwheelDemo (0.1.0)
+  - YYDispatchQueuePool (1.0)
+  - YYKeyboardManager (1.0.1)
+
+DEPENDENCIES:
+  - Masonry
+  - Protobuf
+  - ThirdwheelDemo (from `../`)
+  - YYDispatchQueuePool
+  - YYKeyboardManager
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+    - Protobuf
+    - YYDispatchQueuePool
+    - YYKeyboardManager
+
+EXTERNAL SOURCES:
+  ThirdwheelDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  Protobuf: 2793fcd0622a00b546c60e7cbbcc493e043e9bb9
+  ThirdwheelDemo: 7e959f8c873a77530f50d277126e27842fa485de
+  YYDispatchQueuePool: 3dfb2274bcc74207688dde8ac6f7bdd46871dd7b
+  YYKeyboardManager: ff53d2e80d1808567a7f004028bd200d9469a89f
+
+PODFILE CHECKSUM: 2e35d7da48bb4465b4ad01a44380400e558f730f
+
+COCOAPODS: 1.9.3

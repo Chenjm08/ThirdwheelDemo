@@ -8,6 +8,6 @@
 
 @import UIKit;
 
-@interface CJMViewController : UIViewController
+@interface CJMViewController : UITableViewController
 
 @end

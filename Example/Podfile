@@ -4,6 +4,12 @@ platform :ios, '8.0'
 
 target 'ThirdwheelDemo_Example' do
   pod 'ThirdwheelDemo', :path => '../'
+  
+  pod 'YYKeyboardManager'
+  pod 'Masonry'
+  pod 'YYDispatchQueuePool'
+  pod 'Protobuf'
+  
 
   target 'ThirdwheelDemo_Tests' do
     inherit! :search_paths
